@@ -1,5 +1,5 @@
 {% set name = "dash-leaflet" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dash_leaflet-{{ version }}.tar.gz
-  sha256: 46cbb825a7da7917a1d4b4c174f9b3f6d5615a87ec4179cbd1a84749f78452a7
+  sha256: e42f85320ee65d7ddab5a178006cd76146376a8718961fc5273114c296d9ade3
 
 build:
   number: 0
